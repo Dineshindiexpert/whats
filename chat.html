@@ -285,13 +285,13 @@
             .chat-wrap {
                 flex-direction: column;
                 height: 100vh;
-                /* ensure full height */
+                /* poori screen height cover kare */
             }
 
             .sidebar {
                 max-width: 100%;
                 height: 35vh;
-                /* thoda kam height for user list */
+                /* user list ko kam height de */
             }
 
             .chat-area {
@@ -302,12 +302,14 @@
 
             .messages {
                 flex: 1;
+                /* messages remaining height occupy kare */
                 overflow-y: auto;
+                /* scroll allow kare */
             }
 
             .composer {
                 flex-shrink: 0;
-                /* never shrink, always visible */
+                /* kabhi hide na ho */
             }
         }
     </style>
