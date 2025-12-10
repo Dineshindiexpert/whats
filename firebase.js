@@ -1,6 +1,4 @@
-// save as firebase.js (put in same folder as index.html & chat.html) -->
-
-// firebase.js - simple module (ES module)
+// firebase.js
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
 import { getAuth } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
 import { getDatabase } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js";
