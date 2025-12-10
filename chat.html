@@ -280,6 +280,36 @@
                 flex: 1;
             }
         }
+
+        @media(max-width:768px) {
+            .chat-wrap {
+                flex-direction: column;
+                height: 100vh;
+                /* ensure full height */
+            }
+
+            .sidebar {
+                max-width: 100%;
+                height: 35vh;
+                /* thoda kam height for user list */
+            }
+
+            .chat-area {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .messages {
+                flex: 1;
+                overflow-y: auto;
+            }
+
+            .composer {
+                flex-shrink: 0;
+                /* never shrink, always visible */
+            }
+        }
     </style>
 </head>
 
